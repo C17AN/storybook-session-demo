@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  padding: 24px 22px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 68px;
+  height: 68px;
+  margin-right: 22px;
+}
+
+.accessary {
+  margin-bottom: 6px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 2px;
+}
+
+.content {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+}

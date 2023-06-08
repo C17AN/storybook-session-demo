@@ -1,0 +1,28 @@
+/* toast.module.scss */
+
+.toast {
+  position: fixed;
+  left: 0;
+  bottom: calc(2.8rem + calc(constant(safe-area-inset-bottom) / 2));
+  bottom: calc(2.8rem + calc(env(safe-area-inset-bottom) / 2));
+  width: calc(100% - 3.2rem);
+  padding: 0 1.6rem;
+  z-index: 111;
+
+  p {
+    padding: 0.9rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    text-align: center;
+    letter-spacing: -0.04rem;
+    background: rgba(50, 50, 50, 0.8);
+    border-radius: 1.6rem;
+    color: #fff;
+  }
+
+  //토스트 퍼블리싱 확인용
+  & + .toast {
+    bottom: calc(8rem + calc(constant(safe-area-inset-bottom) / 2));
+    bottom: calc(8rem + calc(env(safe-area-inset-bottom) / 2));
+  }
+}

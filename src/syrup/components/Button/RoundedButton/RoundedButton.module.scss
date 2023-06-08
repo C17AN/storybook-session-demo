@@ -1,0 +1,17 @@
+.rounded-button {
+  padding: 8px 0;
+  border-radius: 20px;
+  min-width: 126px;
+  text-indent: 0;
+}
+
+.rounded-button--primary {
+  background-color: #ff6315;
+  color: #fff;
+}
+
+.rounded-button--gray {
+  background-color: #fff;
+  color: #d2d2d2;
+  border: 1px solid #d2d2d2;
+}

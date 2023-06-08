@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
+  padding: 9px 19px 9px 14px;
+}
+
+.container-primary {
+  background: #fdf6f2;
+}
+
+.container-gray {
+  background: #f6f6f7;
+}
+
+.content {
+  display: inline-block;
+}
+
+.sub-content-container {
+  display: flex;
+  align-items: center;
+}
+
+.sub-content-primary {
+  color: #ff6315;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: -0.5px;
+}
+
+.link-icon {
+  width: 14px;
+  height: 14px;
+}

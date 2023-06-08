@@ -1,0 +1,42 @@
+.container {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.plus {
+  color: #ff3e00;
+}
+
+.minus {
+  color: #3496f4;
+}
+
+.neutural {
+  color: #777;
+}
+
+.icon {
+  width: 8px;
+  height: 5px;
+  margin-right: 3px;
+}
+
+.percentage-text-container {
+  position: relative;
+  margin-left: auto;
+}
+
+.percentage-text {
+  max-width: 214px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: auto;
+}
+
+.percentage-text-small {
+  font-size: 12px;
+}

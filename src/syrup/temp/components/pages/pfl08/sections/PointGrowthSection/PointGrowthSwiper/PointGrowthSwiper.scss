@@ -1,0 +1,25 @@
+.container {
+  background: #ffffff;
+  border: 1px solid #ededed;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+}
+
+.point-growth-items-swiper {
+  .swiper {
+    overflow: visible;
+  }
+
+  .swiper-pagination {
+    bottom: -20px !important;
+  }
+
+  .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #999999;
+  }
+}

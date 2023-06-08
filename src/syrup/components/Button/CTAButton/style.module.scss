@@ -1,0 +1,18 @@
+.button-cta {
+  width: 100%;
+  background: #ff6315;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  text-indent: 0;
+  padding: 17px 0;
+}
+
+.button-cta:disabled {
+  background: #ededed;
+  color: #bbbbbb;
+}

@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  display: flex;
+  height: 100vh;
+}
+
+.dimmed-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #000000;
+  opacity: 0.7;
+}
+
+.icon-close {
+  width: 34px;
+  height: 34px;
+}
+
+.bottomsheet-body {
+  position: fixed;
+  bottom: 0;
+  border-radius: 20px 20px 0 0;
+  z-index: 1;
+  width: 100%;
+  background: #fff;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 29px 23px 0 24px;
+}

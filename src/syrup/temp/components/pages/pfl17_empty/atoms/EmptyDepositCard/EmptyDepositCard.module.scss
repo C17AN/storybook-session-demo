@@ -1,0 +1,69 @@
+.container {
+  border: 1px dashed #dddddd;
+  border-radius: 16px;
+  background: #fff;
+  padding: 19px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 12px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.amount-container {
+  display: flex;
+  align-items: center;
+  color: #222;
+
+  p {
+    border-bottom: 1px solid #222;
+  }
+}
+
+.button-container {
+  display: flex;
+
+  button {
+    text-indent: 0;
+    background: #ffffff;
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    padding: 8.5px 0;
+    width: 100%;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #555;
+    margin-right: 8px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+.refresh-button {
+  width: 14px;
+  height: 14px;
+  text-indent: 0;
+
+  img {
+    width: 14px;
+    height: 14px;
+  }
+}

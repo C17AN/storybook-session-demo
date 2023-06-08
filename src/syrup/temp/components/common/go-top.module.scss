@@ -1,0 +1,26 @@
+/* go_top.module.scss */
+
+.go_top {
+  position: fixed;
+  right: 2.4rem;
+  bottom: 1.4rem;
+  width: 4rem;
+  height: 4rem;
+  background: url('/static/arrow_top_gray100@2x.png') 0 0 no-repeat;
+  background-size: 100% auto;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  will-change: transform;
+  overflow: hidden;
+  text-indent: -1000em;
+
+  &.on {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: all 0.2s ease 0s;
+  }
+}

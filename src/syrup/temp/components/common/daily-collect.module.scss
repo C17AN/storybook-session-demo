@@ -1,0 +1,209 @@
+/* daily-collect.module.scss */
+
+.daily_collect {
+  margin: 5.4rem 1.6rem 2rem;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.08);
+  border-radius: 1.6rem;
+
+  .motion {
+    margin-top: -5.4rem;
+    height: 13.4rem;
+    overflow: hidden;
+  }
+
+  .daily_collect_wrap {
+    .top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .title {
+        font-weight: 700;
+        font-size: 2.1rem;
+        line-height: 2.7rem;
+        letter-spacing: -0.03rem;
+        color: #222;
+      }
+
+      span:not(.title) {
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        letter-spacing: -0.03rem;
+        color: #999;
+      }
+
+      a {
+        padding-right: 1.4rem;
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        letter-spacing: -0.03rem;
+        color: #ff6315;
+        background: url('/static/collect/Group 3465588@2x.png') right 50% no-repeat;
+        background-size: 1.4rem auto;
+      }
+    }
+    ul {
+      margin: 2rem 1.6rem;
+
+      li {
+        margin-bottom: 0.6rem;
+
+        a {
+          display: flex;
+          flex-direction: row;
+          padding: 0.6rem 2rem 0.6rem 0.6rem;
+          border-radius: 1rem;
+
+          .img_wrap {
+            flex-shrink: 0;
+            width: 5.5rem;
+            height: 5.5rem;
+            margin-right: 0.6rem;
+          }
+
+          .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-grow: 1;
+            overflow: hidden;
+
+            .service_name {
+              font-size: 1.3rem;
+              line-height: 1.8rem;
+              color: #555;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
+            }
+
+            .benefit {
+              margin-top: 0.2rem;
+              font-weight: 700;
+              font-size: 1.5rem;
+              line-height: 1.9rem;
+              color: #ec3e48;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
+            }
+          }
+
+          .status {
+            flex-shrink: 0;
+            margin-left: 0.6rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            span {
+              width: 5.3rem;
+              height: 3rem;
+              line-height: 3rem;
+              text-align: center;
+              font-weight: 700;
+              font-size: 1.4rem;
+              color: #ec3e48;
+              background: #fff;
+              border-radius: 3rem;
+            }
+          }
+        }
+
+        &.attendance {
+          a {
+            background: #fff1f4;
+
+            .info {
+              .benefit {
+                color: #ec3e48;
+              }
+            }
+
+            .status {
+              span {
+                color: #ec3e48;
+              }
+            }
+          }
+        }
+        &.quiz {
+          a {
+            background: #e8f6ff;
+            .info {
+              .benefit {
+                color: #277fb4;
+              }
+            }
+            .status {
+              span {
+                color: #277fb4;
+              }
+            }
+          }
+        }
+        &.search {
+          a {
+            background: #fff6e5;
+            .info {
+              .benefit {
+                color: #ea6218;
+              }
+            }
+            .status {
+              span {
+                color: #ea6218;
+              }
+            }
+          }
+        }
+        &.vote {
+          a {
+            background: #f2f1ff;
+            .info {
+              .benefit {
+                color: #6650bf;
+              }
+            }
+            .status {
+              span {
+                color: #6650bf;
+              }
+            }
+          }
+        }
+        &.done {
+          a {
+            background: #f6f6f6;
+
+            .info {
+              .benefit {
+                color: #555;
+              }
+            }
+            .status {
+              span {
+                color: #999;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .btn_more {
+      .more {
+        display: block;
+        width: 100%;
+        line-height: 5.8rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: #464646;
+        border-top: 1px solid #f6f6f7;
+        text-align: center;
+      }
+    }
+  }
+}

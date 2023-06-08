@@ -1,0 +1,86 @@
+.section-1 {
+  padding: 36px 16px 50px 16px;
+}
+
+.invest-event-container {
+  padding: 16px 16px 0 16px;
+}
+
+.investment-card-list {
+  margin-top: 16px;
+
+  overflow-x: scroll;
+  white-space: nowrap;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  & {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 10px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+.section-2 {
+  padding: 50px 0;
+}
+
+.section-2__title-container {
+  padding: 0 20px;
+}
+
+.section__title {
+  height: 26px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 26px;
+}
+
+.section-2__title {
+  height: 26px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.noti-content-box {
+  padding: 60px 0 28px 0;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 16px;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+.section-3 {
+  padding: 0 24px 50px 24px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}

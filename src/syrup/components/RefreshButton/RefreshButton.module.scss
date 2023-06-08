@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 5px 8px;
+  text-indent: 0;
+  border: 1px solid #ededed;
+  border-radius: 30px;
+  background: #fff;
+  color: #999;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.refresh-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}

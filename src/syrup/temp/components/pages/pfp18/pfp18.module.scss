@@ -1,0 +1,13 @@
+.bottomsheet-scroll-area {
+  height: calc(100vh - 160px);
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  & {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

@@ -1,0 +1,36 @@
+/* pcona-save-ad.module.scss */
+
+.pcona_ad_wrap {
+  position: relative;
+  margin: 0 1.6rem;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.08);
+  border-radius: 1.6rem;
+
+  *,
+  .prod-won {
+    font-family: Pretendard !important;
+  }
+
+  .point {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+
+    span {
+      display: inline-block;
+      min-width: 3rem;
+      height: 3rem;
+      padding: 0 0.65rem;
+      font-weight: 700;
+      font-size: 1.5rem;
+      line-height: 3rem;
+      text-align: center;
+      color: #fff;
+      background: #ff004e;
+      border-radius: 10rem;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+  }
+}

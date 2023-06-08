@@ -1,0 +1,116 @@
+/* moweb-header.module.scss */
+
+.moweb_header {
+  padding: calc(1.2rem + 1.9rem) 2.2rem 1.2rem;
+  display: flex;
+  flex-direction: row;
+
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 2;
+  background: #fff;
+
+  .title {
+    display: block;
+    line-height: 3.6rem; //우측 이미지 높이 값
+    font-size: 2.3rem;
+    letter-spacing: -0.03rem;
+    color: #222;
+    font-weight: 700;
+  }
+
+  .ocbpoint {
+    position: relative;
+    padding-left: 1.6rem;
+    margin-left: 1rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 3.6rem;
+    color: #ff004e;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1.4rem;
+      height: 100%;
+      background: url('/static/point@2x.png') 0 50% no-repeat;
+      background-size: 100% auto;
+    }
+  }
+
+  .gnb_list {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+
+    a {
+      display: block;
+
+      span {
+        display: block;
+        width: 3.6rem;
+        height: 3.6rem;
+        text-indent: -1000em;
+        overflow: hidden;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 3.6rem auto;
+      }
+
+      &.alarm span {
+        background-image: url('/static/36_alarm.svg');
+      }
+
+      &.barcode span {
+        background-image: url('/static/36_membership.svg');
+      }
+
+      & ~ a {
+        margin-left: 0.6rem;
+      }
+    }
+  }
+}
+
+.moweb_header_arrow {
+  display: flex;
+  flex-direction: row;
+
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 2;
+  background: #fff;
+
+  a {
+    flex-shrink: 0;
+    display: block;
+    margin: 0 0.2rem 0 0.8rem;
+    width: 3.6rem;
+    height: 5.5rem;
+    background: url('/static/back_left_enabled@2x.png') 50% 50% no-repeat;
+    background-size: 100% auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-indent: -1000em;
+    overflow: hidden;
+  }
+
+  span {
+    display: block;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    color: #222;
+    font-size: 2rem;
+    letter-spacing: -0.05rem;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+  }
+}

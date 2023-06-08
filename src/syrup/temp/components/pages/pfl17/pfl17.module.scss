@@ -1,0 +1,224 @@
+.container {
+}
+
+.title-container {
+  padding: 16px 24px;
+}
+
+.deposit-card-container {
+  padding: 16px 16px 0 16px;
+  margin-bottom: 24px;
+
+  & > div {
+    margin-bottom: 10px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.button-container {
+  padding: 0 16px;
+  margin-bottom: 22px;
+}
+
+.info-container {
+  padding: 0 23px 50px 29px;
+  list-style: disc;
+
+  li {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -0.466667px;
+    color: #bbbbbb;
+  }
+}
+
+.section-2 {
+  padding-top: 50px;
+}
+
+.section-2-content {
+  padding: 0 24px;
+}
+
+.samsung-security-title {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  color: #464646;
+  margin-bottom: 6px;
+
+  h4 {
+    margin-right: 4px;
+  }
+
+  img {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.samsung-security-pricing-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.samsung-security-trading-log {
+  display: flex;
+  align-items: center;
+  span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #707070;
+  }
+
+  img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.samsung-security-rating-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-3 {
+  padding-top: 50px;
+}
+
+.section-3-content {
+  padding: 0 24px;
+}
+
+.show-all-link {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+  color: #222222;
+  display: flex;
+  padding: 21px 0;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.korbit-title {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  color: #464646;
+  margin-bottom: 6px;
+
+  h4 {
+    margin-right: 4px;
+  }
+}
+
+.korbit-pricing-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.korbit-trading-log {
+  display: flex;
+  align-items: center;
+  span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #707070;
+  }
+
+  img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.korbit-rating-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-4 {
+  padding-top: 50px;
+}
+
+.section-4-content {
+  padding: 0 24px;
+}
+
+.treasurer-title {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  color: #464646;
+  margin-bottom: 6px;
+
+  h4 {
+    margin-right: 4px;
+  }
+}
+
+.treasurer-pricing-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.treasurer-trading-log {
+  display: flex;
+  align-items: center;
+  span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #707070;
+  }
+
+  img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.treasurer-rating-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-button-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+}

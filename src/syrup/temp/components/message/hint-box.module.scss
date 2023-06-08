@@ -1,0 +1,22 @@
+// 다음과 같이 사전에 지정된 scss 파일을 불러올 수 있습니다.
+@use '@styles/_important.scss';
+@use '@styles/_hidden.scss';
+
+.hintBox {
+  background-color: #fff5e4;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 0.8rem;
+  border-radius: 0.4rem;
+
+  div {
+    margin: 1rem;
+  }
+
+  strong {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0.2rem;
+    color: $syrup_color-Secondary-Blue;
+  }
+}

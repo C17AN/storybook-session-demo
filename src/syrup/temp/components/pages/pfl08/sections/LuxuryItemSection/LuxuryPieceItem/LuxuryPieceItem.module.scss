@@ -1,0 +1,240 @@
+.container {
+  background: #ffffff;
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.14);
+  border-radius: 10px;
+  padding: 14px 14px 23px 14px;
+  position: relative;
+}
+
+.border-highlight {
+  border: 1px solid #ff5252;
+}
+
+.syrup-only-badge {
+  position: absolute;
+  top: -11px;
+  left: 4px;
+  width: 45px;
+  height: 45px;
+}
+
+.pricing-container {
+  display: flex;
+}
+
+.info-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+  margin-top: 8px;
+  margin-left: 10px;
+  padding-right: 25px;
+}
+
+.upper-title {
+  margin-bottom: 4px;
+}
+
+.lower-title {
+  margin-bottom: 10px;
+}
+
+.pricing-text-container {
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: -0.5px;
+  color: #707070;
+  margin-bottom: 2px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.pricing-text--small {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  letter-spacing: -0.538462px;
+  margin-left: 4px;
+  color: #999999;
+}
+
+.pricing-text {
+  margin-left: auto;
+}
+
+.pricing-text-plus {
+  color: #ff3e00;
+}
+
+.pricing-text-minus {
+  color: #3496f4;
+}
+
+.status-badge-ongoing {
+  background: #ff5252;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: #ffffff;
+  height: 22px;
+  box-sizing: border-box;
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.status-badge-tbd {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.status-badge-dday {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.divider {
+  border-bottom: 1px solid #e4e4e4;
+  width: calc(100% - 32px);
+  margin: 18px 16px 36px 16px;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+.image {
+  width: 88px;
+  height: 88px;
+}
+
+.image-blurred {
+  width: 88px;
+  height: 88px;
+  filter: blur(1px);
+}
+
+.image-background-blurred {
+  position: absolute;
+  z-index: 1;
+  filter: blur(1px);
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 6px;
+}
+
+.image-background-red {
+  position: absolute;
+  z-index: 1;
+  filter: blur(1px);
+  width: 100%;
+  height: 100%;
+  background: rgba(160, 0, 0, 0.55);
+  border-radius: 6px;
+}
+
+.image-sub-text {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+}
+
+.image-sub-text-dday-container {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  letter-spacing: -0.538462px;
+  font-weight: 700;
+}
+
+.image-sub-text-dday {
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  margin-bottom: 3px;
+}
+
+.image-sub-text-dday-count {
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.progress-container {
+  position: relative;
+  height: 10px;
+  width: calc(100% - 32px);
+  margin: 0 auto 2px auto;
+}
+
+.gather-in-progress {
+  top: -12px;
+}
+
+.progress-bar-total {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 100%;
+  background: #f2f2f2;
+  border-radius: 8.5px;
+  z-index: 0;
+}
+
+.progress-text {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: -0.5px;
+  color: #bbbbbb;
+  margin: 0 16px;
+}
+
+.progress-count-container {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.progress-count-message {
+  position: absolute;
+  width: 43px;
+  height: 24px;
+  top: -24px;
+}
+
+.progress-count-value {
+  position: absolute;
+  top: -21px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: -0.35px;
+}
