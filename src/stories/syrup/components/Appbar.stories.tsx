@@ -12,7 +12,7 @@ const Template = (args: ComponentProps<typeof AppBar>) => <AppBar {...args} />;
 
 export const WithoutBackButton = Template.bind({});
 
-WithoutBackButton.args = {};
+WithoutBackButton.args = { pageName: "NFT 멤버십" };
 
 export const WithBackButton = Template.bind({});
 WithBackButton.args = {
