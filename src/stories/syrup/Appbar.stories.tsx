@@ -1,6 +1,6 @@
 import React, { ComponentProps } from "react";
 import { Meta } from "@storybook/react";
-import AppBar from "../../../syrup/components/AppBar";
+import AppBar from "../../syrup/components/AppBar";
 
 // 이 부분이 컴포넌트의 메타데이터가 됩니다.
 export default {

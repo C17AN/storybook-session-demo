@@ -1,6 +1,6 @@
 import React, { ComponentProps } from "react";
 import { Meta } from "@storybook/react";
-import LuxuryPieceItem from "../../../syrup/components/LuxuryPieceItem";
+import LuxuryPieceItem from "../../syrup/components/LuxuryPieceItem";
 
 export default {
   title: "Syrup/LuxuryPieceItem",

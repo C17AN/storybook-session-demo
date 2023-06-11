@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 type Props = {
   size: number;
@@ -6,7 +6,14 @@ type Props = {
 };
 
 function Spacing({ size, backgroundColor }: Props) {
-  return <div style={{ height: size, backgroundColor: backgroundColor ? backgroundColor : '' }}></div>;
+  return (
+    <div
+      style={{
+        height: size,
+        backgroundColor: backgroundColor ? backgroundColor : "",
+      }}
+    ></div>
+  );
 }
 
 export default Spacing;

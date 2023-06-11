@@ -1,6 +1,6 @@
 import React, { ComponentProps } from "react";
 import { Meta } from "@storybook/react";
-import ChangeRate from "../../../syrup/components/ChangeRate";
+import ChangeRate from "../../syrup/components/ChangeRate";
 
 // 이 부분이 컴포넌트의 메타데이터가 됩니다.
 export default {

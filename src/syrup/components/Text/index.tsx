@@ -31,6 +31,7 @@ type Props = {
   color?: string;
   className?: string;
   id?: string;
+  textAlign?: "left" | "right" | "center";
 };
 
 /**
@@ -41,12 +42,24 @@ type Props = {
  * @param as
  * 렌더링할 시멘틱 태그 이름입니다. (div, span 등)
  */
-function Text({ typography, as, children, className, id, color }: Props) {
+function Text({
+  typography,
+  as,
+  children,
+  className,
+  id,
+  color,
+  textAlign,
+}: Props) {
   switch (as) {
     case "h1":
       return (
         <h1
-          className={classNames([style[`text-${typography}`], className])}
+          className={classNames([
+            style[`text-${typography}`],
+            style[`text-${textAlign}`],
+            className,
+          ])}
           id={id}
           style={{ color }}
         >
@@ -56,7 +69,11 @@ function Text({ typography, as, children, className, id, color }: Props) {
     case "h2":
       return (
         <h2
-          className={classNames([style[`text-${typography}`], className])}
+          className={classNames([
+            style[`text-${typography}`],
+            style[`text-${textAlign}`],
+            className,
+          ])}
           id={id}
           style={{ color }}
         >
@@ -66,7 +83,11 @@ function Text({ typography, as, children, className, id, color }: Props) {
     case "h3":
       return (
         <h3
-          className={classNames([style[`text-${typography}`], className])}
+          className={classNames([
+            style[`text-${typography}`],
+            style[`text-${textAlign}`],
+            className,
+          ])}
           id={id}
           style={{ color }}
         >
@@ -76,7 +97,11 @@ function Text({ typography, as, children, className, id, color }: Props) {
     case "h4":
       return (
         <h4
-          className={classNames([style[`text-${typography}`], className])}
+          className={classNames([
+            style[`text-${typography}`],
+            style[`text-${textAlign}`],
+            className,
+          ])}
           id={id}
           style={{ color }}
         >
@@ -86,7 +111,11 @@ function Text({ typography, as, children, className, id, color }: Props) {
     case "h5":
       return (
         <h5
-          className={classNames([style[`text-${typography}`], className])}
+          className={classNames([
+            style[`text-${typography}`],
+            style[`text-${textAlign}`],
+            className,
+          ])}
           id={id}
           style={{ color }}
         >
@@ -96,7 +125,11 @@ function Text({ typography, as, children, className, id, color }: Props) {
     case "h6":
       return (
         <h6
-          className={classNames([style[`text-${typography}`], className])}
+          className={classNames([
+            style[`text-${typography}`],
+            style[`text-${textAlign}`],
+            className,
+          ])}
           id={id}
           style={{ color }}
         >
@@ -106,7 +139,11 @@ function Text({ typography, as, children, className, id, color }: Props) {
     case "p":
       return (
         <p
-          className={classNames([style[`text-${typography}`], className])}
+          className={classNames([
+            style[`text-${typography}`],
+            style[`text-${textAlign}`],
+            className,
+          ])}
           id={id}
           style={{ color }}
         >
@@ -116,7 +153,11 @@ function Text({ typography, as, children, className, id, color }: Props) {
     case "span":
       return (
         <span
-          className={classNames([style[`text-${typography}`], className])}
+          className={classNames([
+            style[`text-${typography}`],
+            style[`text-${textAlign}`],
+            className,
+          ])}
           id={id}
           style={{ color }}
         >
@@ -126,7 +167,11 @@ function Text({ typography, as, children, className, id, color }: Props) {
     case "li":
       return (
         <li
-          className={classNames([style[`text-${typography}`], className])}
+          className={classNames([
+            style[`text-${typography}`],
+            style[`text-${textAlign}`],
+            className,
+          ])}
           id={id}
           style={{ color }}
         >
@@ -136,7 +181,11 @@ function Text({ typography, as, children, className, id, color }: Props) {
     default:
       return (
         <div
-          className={classNames([style[`text-${typography}`], className])}
+          className={classNames([
+            style[`text-${typography}`],
+            style[`text-${textAlign}`],
+            className,
+          ])}
           id={id}
           style={{ color }}
         >

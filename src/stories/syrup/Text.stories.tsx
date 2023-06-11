@@ -1,6 +1,6 @@
 import React from "react";
 import { Meta } from "@storybook/react";
-import Text from "../../../syrup/components/Text";
+import Text from "../../syrup/components/Text";
 
 // 이 부분이 컴포넌트의 메타데이터가 됩니다.
 export default {
