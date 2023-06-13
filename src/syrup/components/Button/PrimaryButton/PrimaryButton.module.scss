@@ -1,0 +1,32 @@
+.button-container {
+  display: flex;
+  height: 54px;
+  box-sizing: border-box;
+}
+
+.button {
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: $syrup_color_primary_orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+  width: 100%;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  &:hover {
+    background-color: #df6122;
+  }
+}
+
+.button-type-outline {
+  background-color: #fff;
+  border: 1px solid $syrup_color_primary_orange;
+  color: $syrup_color_primary_orange;
+}
