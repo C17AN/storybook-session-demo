@@ -1,4 +1,4 @@
-import React, { ComponentProps } from "react";
+import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
 import ListRow from "../../syrup/components/ListRow";
 import ChangeRate from "../../syrup/components/ChangeRate";
@@ -7,6 +7,7 @@ import ChangeRate from "../../syrup/components/ChangeRate";
 export default {
   title: "Syrup/ListRow", // 컴포넌트 분류명 (필수)
   component: ListRow, // 사용할 컴포넌트 (필수)
+  tags: ["autodocs"],
 } as Meta;
 
 // 컴포넌트의 타입을 정의합니다.

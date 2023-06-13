@@ -6,6 +6,7 @@ import ChangeRate from "../../syrup/components/ChangeRate";
 export default {
   title: "Syrup/ChangeRate", // 컴포넌트 분류명 (필수)
   component: ChangeRate, // 사용할 컴포넌트 (필수)
+  tags: ["autodocs"],
 } as Meta;
 
 const Template = (args: ComponentProps<typeof ChangeRate>) => (
