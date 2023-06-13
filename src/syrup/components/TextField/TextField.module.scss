@@ -1,0 +1,28 @@
+.input {
+  border: 0;
+  border-bottom: 2px solid #0033cc;
+  width: 100%;
+
+  &:focus {
+    outline: 0;
+  }
+
+  font-family: "SUIT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  letter-spacing: -0.3px;
+}
+
+.label {
+  font-family: SUIT;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.3;
+  text-align: left;
+  margin-bottom: 3px;
+}

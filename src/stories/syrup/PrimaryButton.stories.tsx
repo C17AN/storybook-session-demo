@@ -7,6 +7,7 @@ import PrimaryButton from "../../syrup/components/Button/PrimaryButton";
 export default {
   title: "Syrup/Button/PrimaryButton", // 컴포넌트 분류명 (필수)
   component: PrimaryButton, // 사용할 컴포넌트 (필수)
+  tags: ["autodocs"],
 } as Meta;
 
 type Story = StoryObj<typeof PrimaryButton>;

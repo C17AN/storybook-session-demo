@@ -7,6 +7,7 @@ import FloatingButton from "../../syrup/components/Button/FloatingButton";
 export default {
   title: "Syrup/Button/FloatingButton", // 컴포넌트 분류명 (필수)
   component: FloatingButton, // 사용할 컴포넌트 (필수)
+  tags: ["autodocs"],
 } as Meta;
 
 type Story = StoryObj<typeof FloatingButton>;
