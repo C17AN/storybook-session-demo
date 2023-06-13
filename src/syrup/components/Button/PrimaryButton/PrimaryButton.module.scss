@@ -23,10 +23,28 @@
   &:hover {
     background-color: #df6122;
   }
+
+  &:disabled {
+    cursor: not-allowed;
+    color: $syrup_color_gray_gray_600;
+    border-color: transparent;
+    background-color: $syrup_color_gray_gray_900;
+  }
 }
 
 .button-type-outline {
   background-color: #fff;
   border: 1px solid $syrup_color_primary_orange;
   color: $syrup_color_primary_orange;
+
+  &:hover {
+    background-color: $syrup_color_gray_gray_950;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    color: $syrup_color_gray_gray_600;
+    border-color: $syrup_color_gray_gray_600;
+    background-color: $syrup_color_gray_gray_900;
+  }
 }

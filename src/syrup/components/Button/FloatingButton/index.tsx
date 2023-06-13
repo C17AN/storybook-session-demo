@@ -9,6 +9,7 @@ interface Props extends HTMLAttributes<HTMLButtonElement> {
   twoButtonChildren?: ReactNode;
   onClick?: () => void;
   onTwoButtonClick?: () => void;
+  disabled?: boolean;
 }
 
 const FloatingButton = ({
@@ -17,17 +18,26 @@ const FloatingButton = ({
   twoButtonChildren,
   onTwoButtonClick,
   onClick,
+  disabled,
 }: Props) => {
   return (
     <div className={styles["button-container"]}>
       {twoButton && (
-        <button className={styles.subButton} onClick={onTwoButtonClick}>
+        <button
+          className={styles.twoButton}
+          onClick={onTwoButtonClick}
+          disabled={disabled}
+        >
           <Text typography="t900" as="span">
             {twoButtonChildren}
           </Text>
         </button>
       )}
-      <button className={cx(styles.button)} onClick={onClick}>
+      <button
+        className={cx(styles.button)}
+        onClick={onClick}
+        disabled={disabled}
+      >
         <Text typography="t900" as="span">
           {children}
         </Text>

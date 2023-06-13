@@ -5,9 +5,15 @@ import cx from "classnames";
 interface Props extends HTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
   type?: "filled" | "outline";
+  disabled?: boolean;
 }
 
-const PrimaryButton = ({ children, type = "filled", ...rest }: Props) => {
+const PrimaryButton = ({
+  children,
+  disabled,
+  type = "filled",
+  ...rest
+}: Props) => {
   const buttonTypeClassName = `button-type-${type}`;
 
   return (
@@ -18,6 +24,7 @@ const PrimaryButton = ({ children, type = "filled", ...rest }: Props) => {
           styles[buttonTypeClassName],
           rest.className
         )}
+        disabled={disabled}
         {...rest}
       >
         {children}

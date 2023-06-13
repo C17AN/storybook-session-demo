@@ -19,13 +19,14 @@
   &:hover {
     background-color: #df6122;
   }
+
+  &:disabled {
+    background-color: $syrup_color_gray_gray_900;
+    color: $syrup_color_gray_gray_600;
+  }
 }
 
-.button-type-floating {
-  height: 64px;
-}
-
-.subButton {
+.twoButton {
   background-color: $syrup_color_gray_gray_200;
   display: flex;
   align-items: center;
@@ -36,5 +37,10 @@
 
   &:hover {
     background-color: $syrup_color_gray_gray_400;
+  }
+
+  &:disabled {
+    background-color: $syrup_color_gray_gray_850;
+    color: $syrup_color_gray_gray_600;
   }
 }
