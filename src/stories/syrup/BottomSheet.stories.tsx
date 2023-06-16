@@ -2,7 +2,6 @@ import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
 // Note: 절대 경로 임포트가 어려워, GSD로 상대경로를 사용한다.
 import BottomSheet from "../../syrup/components/BottomSheet";
-import InvestEventCard from "../../syrup/components/InvestEventCard";
 
 // 이 부분이 컴포넌트의 메타데이터가 됩니다.
 export default {

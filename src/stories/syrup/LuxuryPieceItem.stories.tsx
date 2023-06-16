@@ -5,6 +5,7 @@ import LuxuryPieceItem from "../../syrup/components/LuxuryPieceItem";
 export default {
   title: "Syrup/LuxuryPieceItem",
   component: LuxuryPieceItem,
+  tags: ["autodocs"],
 } as Meta;
 
 const Template = (args: ComponentProps<typeof LuxuryPieceItem>) => (
